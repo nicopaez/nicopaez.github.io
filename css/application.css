@@ -1,0 +1,40 @@
+body { background-color:white; color:black}
+
+a {
+    text-decoration:none;
+    color:#000;
+}
+div { 
+    width: 100%; 
+    font-family: 'Source Code Pro', sans-serif;;
+    margin:auto;
+    text-align: center;
+}
+
+div#page-container {min-height: 400px;}
+div#content { height: 100%; }
+
+div#title {
+    padding-top:15%;
+    font-size: 44pt;
+}
+
+div#navlist {
+    min-height: 80px;
+}
+
+div#navlist li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}        
+
+ul a:visited {
+    color: #000;
+}
+
+
+ul a:hover {
+    color: #CCC;
+}
